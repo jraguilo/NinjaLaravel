@@ -9,9 +9,7 @@
   {{ HTML::script('game/scripts/constants.js'); }}
 @stop
 
-@section('content')
-  <h3 class="masthead-brand">Ninja Assasin 2</h3>
-  
+@section('content')  
   <div>
     <canvas id="game"> {{ HTML::script('game/scripts/main.js'); }}
     </canvas>

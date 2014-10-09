@@ -20,7 +20,16 @@
 
   </head>
   <body>
-  
+    <nav class="navbar navbar-default" role="navigation">
+   <div class="navbar-header">
+      <a class="navbar-brand" href="#">Ninja Assassin 2</a>
+   </div>
+   <div>
+      <ul class="nav navbar-nav">
+         <li><a href="#">Login</a></li>
+      </ul>
+   </div>
+</nav>
     @yield('content')
   
 
