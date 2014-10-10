@@ -17,7 +17,7 @@ class HomeController extends BaseController {
 
 	public function showHome()
 	{
-		return View::make('register');
+		return View::make('game');
 	}
 
 }
