@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('game');
-});
+//Main Page
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@showHome'));
+
+//Registration Page
+Route::get('register', array('as' => 'register', 'uses' => 'UsersController@showRegister'));
+
+//Login Page
+Route::get('login', array('as' => 'login', 'uses' => 'UsersController@showLogin'));
