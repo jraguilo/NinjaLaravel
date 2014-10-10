@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-{{Form::open(array('url' => 'register', 'method' => 'post'))}}
+{{Form::open(array('url' => 'login', 'method' => 'post'))}}
 <div class="row">
   <div class="form-group col-md-3">
     {{Form::label('username', 'Username')}}
@@ -18,7 +18,7 @@
 </div>
 <div class="row">
   <div class="form-group col-md-3">
-{{Form::submit('Register', array('class' => 'btn btn-primary'))}}
+{{Form::submit('Login', array('class' => 'btn btn-primary'))}}
   </div>
 </div>
 {{Form::close()}}

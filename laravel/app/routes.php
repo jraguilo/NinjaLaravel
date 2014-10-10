@@ -19,3 +19,5 @@ Route::get('register', array('as' => 'register', 'uses' => 'UsersController@show
 
 //Login Page
 Route::get('login', array('as' => 'login', 'uses' => 'UsersController@showLogin'));
+
+Route::post('login', array('as' => 'login', 'uses' => 'UsersController@handleLogin'));
